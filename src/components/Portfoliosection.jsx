@@ -1,4 +1,6 @@
 import React from "react";
+import BusinessCard from "./portfolio/BusinessCard";
+import SellersCard from "./portfolio/SellersCard";
 
 const PortfolioSection = () => {
   return (
@@ -8,7 +10,7 @@ const PortfolioSection = () => {
       </h2>
       <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
         {/* Buyers Card */}
-        <div className="bg-gray-100 shadow-md rounded-lg p-6 w-80">
+        {/* <div className="bg-gray-100 shadow-md rounded-lg p-6 w-80">
           <h3 className="text-lg font-semibold mb-2">Buyers</h3>
           <p className="text-sm text-gray-600">Businesses For Sale</p>
           <div className="mt-4 text-sm text-gray-700">
@@ -16,7 +18,8 @@ const PortfolioSection = () => {
             <p>EBITDA: ****</p>
             <p>Industry: ****</p>
           </div>
-        </div>
+        </div> */}
+        <BusinessCard/>
         
         {/* Connector Icon */}
         <div className="bg-white rounded-full p-4 shadow-lg">
@@ -24,7 +27,7 @@ const PortfolioSection = () => {
         </div>
 
         {/* Sellers Card */}
-        <div className="bg-gray-100 shadow-md rounded-lg p-6 w-80">
+        {/* <div className="bg-gray-100 shadow-md rounded-lg p-6 w-80">
           <h3 className="text-lg font-semibold mb-2">Sellers</h3>
           <p className="text-sm text-gray-600">Top Sellers List</p>
           <div className="mt-4 text-sm text-gray-700">
@@ -32,7 +35,9 @@ const PortfolioSection = () => {
             <p>Past Deal Cost: ****</p>
             <p>Close Rate: ****</p>
           </div>
-        </div>
+        </div> */}
+
+        <SellersCard/>
       </div>
     </section>
   );

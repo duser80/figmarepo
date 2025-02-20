@@ -1,4 +1,6 @@
 import React from "react";
+import BusinessListingCard from "./buyers/BusinessListingCard";
+import AdvancedFilters from "./buyers/AdvancedFilters";
 
 const BuyersSection = () => {
   return (
@@ -6,12 +8,15 @@ const BuyersSection = () => {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-12">
         {/* Left Side - Image */}
         <div className="relative w-full max-w-md lg:max-w-lg">
-          <img
-            src="https://source.unsplash.com/400x300/?business,market"
-            alt="Business Listings"
-            className="rounded-lg shadow-lg"
-          />
-          <div className="absolute -bottom-6 left-6 bg-white p-3 shadow-md rounded-md">
+        <div className="relative">
+          <BusinessListingCard/>
+
+        </div>
+          <div className="relative left-[150px] -top-[80px]">
+
+          <AdvancedFilters/>
+          </div>
+          <div className="absolute -bottom-6 left-6 bg-white px-8 py-3 shadow-md rounded-md flex w-[400px] justify-between">
             <p className="text-sm font-semibold">Trusted Listings</p>
             <span className="text-xs text-gray-500">45+ New Listings</span>
           </div>

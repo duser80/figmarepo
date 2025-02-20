@@ -1,5 +1,8 @@
 import React from "react";
 import { CheckCircle } from "lucide-react";
+import BuyerProfileCard from "./seller/BuyerProfileCard";
+import StatsCard from "./seller/StatsCard";
+import BuyerProfileCard2 from "./seller/BuyerProfileCard2";
 
 const SellNowSection = () => {
   return (
@@ -31,7 +34,7 @@ const SellNowSection = () => {
         </div>
         {/* Right Content - Mockup UI */}
         <div className="relative flex justify-center">
-          <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute top-0 left-10">
+          {/* <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute top-0 left-10">
             <p className="text-sm font-semibold">Buyer Profiles</p>
             <div className="mt-3 space-y-2">
               <div className="bg-gray-100 p-2 rounded-lg">
@@ -43,17 +46,20 @@ const SellNowSection = () => {
                 <p className="text-xs text-gray-500">Tangible Assets Investor</p>
               </div>
             </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute bottom-0 right-10">
+          </div> */}
+          <BuyerProfileCard/>
+          <BuyerProfileCard2/>
+          {/* <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute bottom-0 right-10">
             <p className="text-sm font-semibold">Best Price</p>
             <div className="mt-3 bg-blue-500 text-white p-2 rounded-lg text-center">
               Accept Offer
             </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-xl p-5 w-36 absolute bottom-10 left-10 flex flex-col items-center">
+          </div> */}
+          {/* <div className="bg-white shadow-lg rounded-xl p-5 w-36 absolute bottom-10 left-10 flex flex-col items-center">
             <p className="text-sm font-medium">300+</p>
             <p className="text-xs text-gray-500">Active Buyers Matched To Your Business</p>
-          </div>
+          </div> */}
+          <StatsCard/>
         </div>
       </div>
     </section>
