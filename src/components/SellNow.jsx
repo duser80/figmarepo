@@ -6,7 +6,7 @@ import BuyerProfileCard2 from "./seller/BuyerProfileCard2";
 
 const SellNowSection = () => {
   return (
-    <section className="bg-blue-50 py-16 px-6 md:px-20">
+    <section className="bg-blue-50 py-16 px-6 md:px-20 min-h-fit pb-[150px]">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>
@@ -33,7 +33,7 @@ const SellNowSection = () => {
           </ul>
         </div>
         {/* Right Content - Mockup UI */}
-        <div className="relative flex justify-center">
+        <div className="relative flex flex-row">
           {/* <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute top-0 left-10">
             <p className="text-sm font-semibold">Buyer Profiles</p>
             <div className="mt-3 space-y-2">
@@ -47,8 +47,23 @@ const SellNowSection = () => {
               </div>
             </div>
           </div> */}
+          <div className="relative  flex">
+            <div className="relative left-[130px]">
+
           <BuyerProfileCard/>
+            </div>
+            <div className="relative top-[250px] left-[50px]">
+
+          <StatsCard/>
+            </div>
+            <div className=" absolute top-[200px]">
           <BuyerProfileCard2/>
+
+            </div>
+          </div>
+          {/* <div className="relative -left-[40px] ">
+
+          </div> */}
           {/* <div className="bg-white shadow-lg rounded-xl p-5 w-64 absolute bottom-0 right-10">
             <p className="text-sm font-semibold">Best Price</p>
             <div className="mt-3 bg-blue-500 text-white p-2 rounded-lg text-center">
@@ -59,7 +74,7 @@ const SellNowSection = () => {
             <p className="text-sm font-medium">300+</p>
             <p className="text-xs text-gray-500">Active Buyers Matched To Your Business</p>
           </div> */}
-          <StatsCard/>
+          
         </div>
       </div>
     </section>

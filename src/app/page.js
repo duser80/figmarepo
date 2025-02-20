@@ -7,6 +7,7 @@ import SellNowSection from "@/components/SellNow";
 import TestimonialSection from "@/components/Testimonial";
 import Image from "next/image";
 import Footer from "@/components/Footer";
+import CTA from "@/components/CTA";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <SellNowSection/>
     <BuyersSection/>
     <TestimonialSection/>
+    <CTA/>
     <Footer/>
    </div>
   );

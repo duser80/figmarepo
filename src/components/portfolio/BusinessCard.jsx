@@ -1,6 +1,6 @@
 const BusinessCard = () => {
     return (
-      <div className="w-1/3 bg-white rounded-2xl shadow-md p-6">
+      <div className="w-[330px] bg-white rounded-2xl shadow-md p-6">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-semibold">Businesses For Sale</h2>
           <span className="text-gray-500 text-sm">100+ listings</span>

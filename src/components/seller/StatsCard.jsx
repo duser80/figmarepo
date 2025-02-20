@@ -2,7 +2,7 @@ import React from "react";
 
 const StatsCard = () => {
   return (
-    <div className="w-[150px] p-2 bg-white shadow-lg rounded-lg flex flex-col items-center text-center h-[200px]">
+    <div className="w-[180px] p-2 bg-white shadow-lg rounded-lg flex flex-col items-center text-center h-[200px]">
       <div className="w-8 h-8 flex items-center justify-center bg-green-400 rounded-full mb-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"

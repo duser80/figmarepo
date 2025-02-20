@@ -1,6 +1,7 @@
 import React from "react";
 import BusinessListingCard from "./buyers/BusinessListingCard";
 import AdvancedFilters from "./buyers/AdvancedFilters";
+import TrustedRings from "./buyers/TrustedRings";
 
 const BuyersSection = () => {
   return (
@@ -15,6 +16,10 @@ const BuyersSection = () => {
           <div className="relative left-[150px] -top-[80px]">
 
           <AdvancedFilters/>
+          </div>
+          <div className="relative -top-[40px]">
+
+            <TrustedRings/>
           </div>
           <div className="absolute -bottom-6 left-6 bg-white px-8 py-3 shadow-md rounded-md flex w-[400px] justify-between">
             <p className="text-sm font-semibold">Trusted Listings</p>

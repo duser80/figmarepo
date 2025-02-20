@@ -1,6 +1,6 @@
 export default function BuyerProfileCard2() {
     return (
-      <div className="w-[300px] h-[300px] bg-white shadow-lg rounded-xl p-5 relative">
+      <div className="w-[300px] h-[260px] bg-white shadow-lg rounded-xl p-5 relative">
         <h3 className="text-sm font-semibold text-gray-700">Buyer Profile</h3>
   
         {/* Buyer Info */}
