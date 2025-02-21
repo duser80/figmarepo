@@ -4,9 +4,9 @@ export default function AIMarketplace() {
   return (
     <section className="relative bg-white text-center py-16 px-6 overflow-hidden">
       {/* Background Gradient */}
-      <div className="absolute inset-0 flex justify-center items-center">
-        <div className="w-[120%] h-[120%] rounded-full bg-gradient-to-r from-indigo-200 via-purple-200 to-blue-200 opacity-30"></div>
-      </div>
+      <div className="absolute -top-20 -left-20 w-96 h-96 bg-gradient-to-r from-blue-200 to-transparent rounded-full opacity-50"></div>
+  <div className="absolute -bottom-20 -right-20 w-96 h-96 bg-gradient-to-l from-blue-200 to-transparent rounded-full opacity-50"></div>
+
 
       <div className="relative z-10">
         {/* Header */}
